@@ -1,0 +1,31 @@
+review_id,product_id,reviewer_id,rating,review_text,timestamp,ground_truth_label
+REV-1001,PROD-QUANTUM-HEADPHONE,USER-8821,5.0,"I have tested dozens of wireless headphones and this one stands out. The active noise cancellation handles high-frequency metro hum with ease, and battery lasted 32 hours across three days of work. Spatial audio stage is crisp.",2026-09-12 09:14:22,normal
+REV-1002,PROD-QUANTUM-HEADPHONE,USER-9011,5.0,"AMAZING PRODUCT! BEST EVER!!!! BUY BUY BUY! 100% RECOMMEND TO EVERYONE WOW WOW WOW!!!",2026-09-12 09:15:02,suspicious
+REV-1003,PROD-QUANTUM-HEADPHONE,USER-9012,5.0,"AMAZING PRODUCT! BEST EVER!!!! BUY BUY BUY! 100% RECOMMEND TO EVERYONE WOW WOW WOW!!!",2026-09-12 09:15:45,suspicious
+REV-1004,PROD-QUANTUM-HEADPHONE,USER-9013,5.0,"AMAZING PRODUCT! BEST EVER!!!! BUY BUY BUY! 100% RECOMMEND TO EVERYONE WOW WOW WOW!!!",2026-09-12 09:16:11,suspicious
+REV-1005,PROD-QUANTUM-HEADPHONE,USER-3341,4.0,"Solid build quality with comfortable memory foam ear cushions. The companion equalizer app is slightly buggy on firmware v1.4, but sound fidelity is well balanced.",2026-09-13 14:22:10,normal
+REV-1006,PROD-QUANTUM-HEADPHONE,USER-9014,5.0,"Great quality fast shipping. Great quality fast shipping. Great quality fast shipping.",2026-09-13 14:25:01,suspicious
+REV-1007,PROD-QUANTUM-HEADPHONE,USER-2109,2.0,"The headband clamp force is too tight for glasses wearers like me. After 45 minutes my ears felt fatigued. Sound quality is decent though.",2026-09-14 18:30:00,normal
+REV-1008,PROD-SMARTWATCH-ULTRA,USER-4412,5.0,"Heart rate tracking matched my chest strap within 1 bpm during threshold interval sprints. Sleep stage breakdown matches my Oura ring reasonably well.",2026-09-15 08:12:44,normal
+REV-1009,PROD-SMARTWATCH-ULTRA,USER-9901,1.0,"TERRIBLE HORRIBLE BROKE IN 1 MINUTE SCAM SCAM DONT BUY WORST THING ON EARTH ZERO STARS!!!!",2026-09-15 08:14:00,suspicious
+REV-1010,PROD-SMARTWATCH-ULTRA,USER-9902,1.0,"TERRIBLE HORRIBLE BROKE IN 1 MINUTE SCAM SCAM DONT BUY WORST THING ON EARTH ZERO STARS!!!!",2026-09-15 08:14:22,suspicious
+REV-1011,PROD-SMARTWATCH-ULTRA,USER-5521,3.0,"Decent fitness tracker. The display is bright enough in direct sunlight, though GPS lock took about 90 seconds in downtown alleyways.",2026-09-16 11:45:00,normal
+REV-1012,PROD-SMARTWATCH-ULTRA,USER-8812,4.0,"Battery lasts about 4 days with always-on display disabled. Vibration motor is subtle and not jarring.",2026-09-17 10:05:30,normal
+REV-1013,PROD-ERGONOMIC-CHAIR,USER-1029,5.0,"Adjustable 4D armrests and lumbar support tension make an enormous difference for 10-hour desk days. Assembly took roughly 25 minutes with provided hex tool.",2026-09-18 16:20:15,normal
+REV-1014,PROD-ERGONOMIC-CHAIR,USER-9020,5.0,"Awesome awesome awesome five stars five stars five stars love it so much buy now!!",2026-09-18 16:21:05,suspicious
+REV-1015,PROD-ERGONOMIC-CHAIR,USER-9021,5.0,"Awesome awesome awesome five stars five stars five stars love it so much buy now!!",2026-09-18 16:21:30,suspicious
+REV-1016,PROD-ERGONOMIC-CHAIR,USER-3030,4.0,"Mesh back provides good breathability during summer. The casters roll smoothly on hardwood without leaving marks.",2026-09-19 12:10:00,normal
+REV-1017,PROD-ERGONOMIC-CHAIR,USER-6124,1.0,"Cylinder began sinking after two weeks of use. Customer support offered a replacement gas piston immediately though.",2026-09-20 09:30:11,normal
+REV-1018,PROD-MECHANICAL-KEYBOARD,USER-7711,5.0,"Lubed linear switches feel buttery smooth with minimal stem wobble. Gasket mounting gives a pleasing deep acoustic profile.",2026-09-21 20:15:00,normal
+REV-1019,PROD-MECHANICAL-KEYBOARD,USER-9031,5.0,"Super great item 10/10 best seller recommend friend buy today nice nice nice!!!!!",2026-09-21 20:16:02,suspicious
+REV-1020,PROD-MECHANICAL-KEYBOARD,USER-9032,5.0,"Super great item 10/10 best seller recommend friend buy today nice nice nice!!!!!",2026-09-21 20:16:40,suspicious
+REV-1021,PROD-MECHANICAL-KEYBOARD,USER-4912,4.0,"Hot-swappable PCB works cleanly. South-facing LEDs are great with cherry profile keycaps.",2026-09-22 15:40:22,normal
+REV-1022,PROD-MECHANICAL-KEYBOARD,USER-8234,3.0,"Stabilizers had slight rattle out of the box. Required holee mod and additional dielectric grease to silence the spacebar.",2026-09-23 11:20:00,normal
+REV-1023,PROD-COFFEE-BREWER,USER-5511,5.0,"PID temperature controller maintains a rock solid 200F throughout the brew cycle. Extraction yields are remarkably consistent with medium roast beans.",2026-09-24 07:15:33,normal
+REV-1024,PROD-COFFEE-BREWER,USER-9041,5.0,"Five stars love coffee so good so good best coffee maker ever buy it now wow!!",2026-09-24 07:16:10,suspicious
+REV-1025,PROD-COFFEE-BREWER,USER-9042,5.0,"Five stars love coffee so good so good best coffee maker ever buy it now wow!!",2026-09-24 07:16:55,suspicious
+REV-1026,PROD-COFFEE-BREWER,USER-3981,4.0,"Thermal carafe keeps brew hot for over 3 hours without burning the taste like heated plates do.",2026-09-25 08:44:12,normal
+REV-1027,PROD-COFFEE-BREWER,USER-7612,2.0,"Showerhead dispersal pattern leaves dry spots in the coffee bed unless manually pre-wetted before brewing.",2026-09-26 10:11:05,normal
+REV-1028,PROD-SMART-THERMOSTAT,USER-8190,5.0,"Integrated cleanly with Home Assistant over Zigbee/Matter. Heating schedule reduced monthly gas bill noticeably.",2026-09-27 17:35:40,normal
+REV-1029,PROD-SMART-THERMOSTAT,USER-9051,5.0,"BEST PURCHASE EVER EVERYONE SHOULD BUY FIVE STARS FIVE STARS PERFECT PERFECT!!!",2026-09-27 17:36:20,suspicious
+REV-1030,PROD-SMART-THERMOSTAT,USER-6221,4.0,"Clear e-ink screen with intuitive touch dial. Setup required C-wire adapter which was included in the box.",2026-09-28 14:02:18,normal

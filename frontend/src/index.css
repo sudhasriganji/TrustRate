@@ -1,0 +1,189 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-paper: #FAF6EE;
+    --bg-paper-alt: #F3ECE0;
+    --card-surface: #FFFFFF;
+    --card-docket: #FBF8F2;
+    --ink-primary: #0F172A;
+    --ink-secondary: #334155;
+    --ink-muted: #64748B;
+    --border-stone: #E5DCD0;
+    --border-stone-strong: #D2C4B2;
+    
+    /* Vibrant Pops */
+    --coral-vivid: #F43F5E;
+    --coral-soft: #FFF1F2;
+    --acid-lime: #84CC16;
+    --acid-lime-deep: #4D7C0F;
+    --acid-lime-soft: #F7FEE7;
+    --cobalt-vivid: #2563EB;
+    --cobalt-soft: #EFF6FF;
+    --amber-star: #D97706;
+  }
+
+  body {
+    background-color: #FAF6EE;
+    color: #0F172A;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: 
+      radial-gradient(rgba(15, 23, 42, 0.035) 1px, transparent 1px),
+      linear-gradient(to right, rgba(229, 220, 208, 0.25) 1px, transparent 1px);
+    background-size: 28px 28px, 112px 112px;
+    background-position: 0 0, 0 0;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: 'Newsreader', Georgia, Cambria, 'Times New Roman', serif;
+  }
+
+  code, pre, .font-code {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  /* Accessible focus styling */
+  :focus-visible {
+    outline: 2px solid #2563EB;
+    outline-offset: 2px;
+  }
+}
+
+/* Detective Field Notebook & Signal Observatory Styles */
+
+/* Primary Paper Card */
+.paper-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E5DCD0;
+  box-shadow: 0 2px 4px rgba(15, 23, 42, 0.03), 0 10px 28px -6px rgba(15, 23, 42, 0.06);
+  border-radius: 1rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.paper-card-subtle {
+  background-color: #F8F4EA;
+  border: 1px solid #E4DAC9;
+  border-radius: 0.875rem;
+}
+
+/* Field Notebook Docket with ruled margins */
+.notebook-docket {
+  background-color: #FCFAF4;
+  border: 1.5px solid #D8CEC0;
+  border-radius: 1.125rem;
+  position: relative;
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.05), 0 20px 30px -10px rgba(15, 23, 42, 0.07);
+}
+
+.notebook-docket::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2rem;
+  width: 1.5px;
+  background-color: rgba(244, 63, 94, 0.18); /* Red pencil investigator margin line */
+  pointer-events: none;
+}
+
+/* Inspection card accent bar */
+.card-accent-cobalt {
+  border-top: 3px solid var(--cobalt-vivid);
+}
+.card-accent-coral {
+  border-top: 3px solid var(--coral-vivid);
+}
+.card-accent-lime {
+  border-top: 3px solid var(--acid-lime);
+}
+
+/* Rubber Stamp Badges */
+.stamp-badge {
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.6875rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border-width: 1.5px;
+}
+
+.stamp-coral {
+  background-color: #FFF1F2;
+  color: #BE123C;
+  border-color: #FDA4AF;
+  transform: rotate(-1deg);
+}
+
+.stamp-lime {
+  background-color: #F7FEE7;
+  color: #3F6212;
+  border-color: #BEF264;
+  transform: rotate(0.8deg);
+}
+
+.stamp-cobalt {
+  background-color: #EFF6FF;
+  color: #1D4ED8;
+  border-color: #93C5FD;
+  transform: rotate(-0.5deg);
+}
+
+.stamp-ink {
+  background-color: #0F172A;
+  color: #FAF6EE;
+  border-color: #334155;
+  transform: rotate(0.5deg);
+}
+
+/* Text Highlighter Pens */
+.highlight-lime {
+  background: linear-gradient(104deg, rgba(163, 230, 53, 0) 0.9%, rgba(163, 230, 53, 0.35) 2.4%, rgba(163, 230, 53, 0.28) 95%);
+  padding: 0.1em 0.25em;
+  border-radius: 4px;
+}
+
+.highlight-coral {
+  background: linear-gradient(104deg, rgba(253, 164, 175, 0) 0.9%, rgba(253, 164, 175, 0.35) 2.4%, rgba(253, 164, 175, 0.25) 95%);
+  padding: 0.1em 0.25em;
+  border-radius: 4px;
+}
+
+.highlight-cobalt {
+  background: linear-gradient(104deg, rgba(147, 197, 253, 0) 0.9%, rgba(147, 197, 253, 0.35) 2.4%, rgba(147, 197, 253, 0.25) 95%);
+  padding: 0.1em 0.25em;
+  border-radius: 4px;
+}
+
+/* Signal Coordinate Reticle / Crosshair */
+.signal-crosshair {
+  background-image: 
+    linear-gradient(to right, rgba(15, 23, 42, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 23, 42, 0.08) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Reduced Motion Override */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .stamp-coral,
+  .stamp-lime,
+  .stamp-cobalt,
+  .stamp-ink {
+    transform: none !important;
+  }
+}
